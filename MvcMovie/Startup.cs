@@ -47,8 +47,7 @@ namespace MvcMovie
                 app.UseHsts();
             }
 
-            //MODIFICADO! ALTERA O IDIOMA PADRÃO! , pelo .
-            //app.UseRequestLocalization("en-UY", "fr-FR"); 
+            
             
             app.UseHttpsRedirection();
             app.UseStaticFiles();
